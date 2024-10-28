@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #f4f7fa, #e0e7ef);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    color: #333; 
+  }
+  
+  .App {
+    background-color: #ffffff; 
+    border-radius: 12px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.8rem; 
+    margin-bottom: 20px;
+    color: #007bff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 2.2rem;
+    margin: 15px 0;
+  }
+  
+  h3 {
+    font-size: 1.6rem;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  input[type="text"] {
+    padding: 12px;
+    margin-right: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px; 
+    outline: none; 
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  p {
+    color: red;
+  }
+  
+  .game-over {
+    color: #d9534f;
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2.2rem;
+    }
+  
+    h2 {
+      font-size: 1.8rem;
+    }
+  
+    h3 {
+      font-size: 1.4rem;
+    }
+  
+    .App {
+      padding: 20px;
+    }
+  }
+  
